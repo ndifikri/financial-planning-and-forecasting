@@ -1,0 +1,194 @@
+[
+ {
+  "band": "Rentan",
+  "payload": {
+   "client_id": 1453,
+   "bulan_forecast": "November 2019",
+   "health_score": 45.0,
+   "health_band": "Rentan",
+   "pendapatan_bulanan_fmt": "$3,010",
+   "forecast_pengeluaran_fmt": "$4,405",
+   "forecast_pengeluaran_rentang_fmt": "$3,616 - $5,316",
+   "proyeksi_surplus_fmt": "-$896",
+   "proyeksi_surplus_skenario_buruk_fmt": "-$1,807",
+   "rekomendasi_tabungan_bulanan_fmt": "$0",
+   "target_dana_darurat_fmt": "$10,269",
+   "aksi_utama": "DEFISIT: amankan arus kas, pangkas diskresioner & hindari utang konsumtif baru",
+   "status_arus_kas": "defisit",
+   "defisit_setelah_ikut_budget_fmt": "-$801",
+   "kategori_terbesar": [
+    {
+     "kategori": "Belanja Kebutuhan Pokok",
+     "forecast_fmt": "$1,483"
+    },
+    {
+     "kategori": "Kesehatan & Apotek",
+     "forecast_fmt": "$788"
+    },
+    {
+     "kategori": "Transportasi & BBM",
+     "forecast_fmt": "$727"
+    }
+   ],
+   "peluang_hemat": [
+    {
+     "kategori": "Makan & Minum di Luar",
+     "forecast_fmt": "$243",
+     "median_peer_fmt": "$145",
+     "saran_budget_fmt": "$182",
+     "potensi_hemat_fmt": "$61"
+    },
+    {
+     "kategori": "Belanja Ritel & Rumah Tangga",
+     "forecast_fmt": "$454",
+     "median_peer_fmt": "$422",
+     "saran_budget_fmt": "$422",
+     "potensi_hemat_fmt": "$32"
+    },
+    {
+     "kategori": "Travel & Akomodasi",
+     "forecast_fmt": "$49",
+     "median_peer_fmt": "$47",
+     "saran_budget_fmt": "$47",
+     "potensi_hemat_fmt": "$2"
+    }
+   ]
+  },
+  "advice": {
+   "judul": "Rencana keuangan November 2019",
+   "ringkasan": "Pengeluaran Anda bulan depan diperkirakan $4,405 (kisaran $3,616 - $5,316), dengan proyeksi defisit -$896.",
+   "insight": [
+    "Skor kesehatan keuangan Anda 45 (Rentan).",
+    "Kategori terbesar: Belanja Kebutuhan Pokok ($1,483)."
+   ],
+   "rekomendasi": [
+    "Batasi Makan & Minum di Luar di $182 bulan ini (potensi hemat $61).",
+    "Tunda tabungan rutin dulu; pastikan tagihan & kebutuhan pokok terbayar sebelum belanja lain.",
+    "Hindari cicilan atau utang konsumtif baru, dan jadwalkan konsultasi dengan RM kami."
+   ],
+   "cta": "Atur budget & auto-save di aplikasi sekarang."
+  },
+  "source": "template (APIConnectionError)"
+ },
+ {
+  "band": "Waspada",
+  "payload": {
+   "client_id": 850,
+   "bulan_forecast": "November 2019",
+   "health_score": 60.0,
+   "health_band": "Waspada",
+   "pendapatan_bulanan_fmt": "$3,341",
+   "forecast_pengeluaran_fmt": "$4,281",
+   "forecast_pengeluaran_rentang_fmt": "$3,212 - $5,208",
+   "proyeksi_surplus_fmt": "-$547",
+   "proyeksi_surplus_skenario_buruk_fmt": "-$1,474",
+   "rekomendasi_tabungan_bulanan_fmt": "$0",
+   "target_dana_darurat_fmt": "$9,643",
+   "aksi_utama": "DEFISIT: amankan arus kas, pangkas diskresioner & hindari utang konsumtif baru",
+   "status_arus_kas": "defisit",
+   "defisit_setelah_ikut_budget_fmt": "-$418",
+   "kategori_terbesar": [
+    {
+     "kategori": "Transportasi & BBM",
+     "forecast_fmt": "$2,252"
+    },
+    {
+     "kategori": "Belanja Kebutuhan Pokok",
+     "forecast_fmt": "$527"
+    },
+    {
+     "kategori": "Belanja Ritel & Rumah Tangga",
+     "forecast_fmt": "$323"
+    }
+   ],
+   "peluang_hemat": [
+    {
+     "kategori": "Makan & Minum di Luar",
+     "forecast_fmt": "$302",
+     "median_peer_fmt": "$153",
+     "saran_budget_fmt": "$227",
+     "potensi_hemat_fmt": "$76"
+    },
+    {
+     "kategori": "Hiburan & Gaya Hidup",
+     "forecast_fmt": "$210",
+     "median_peer_fmt": "$80",
+     "saran_budget_fmt": "$158",
+     "potensi_hemat_fmt": "$53"
+    }
+   ]
+  },
+  "advice": {
+   "judul": "Rencana keuangan November 2019",
+   "ringkasan": "Pengeluaran Anda bulan depan diperkirakan $4,281 (kisaran $3,212 - $5,208), dengan proyeksi defisit -$547.",
+   "insight": [
+    "Skor kesehatan keuangan Anda 60 (Waspada).",
+    "Kategori terbesar: Transportasi & BBM ($2,252)."
+   ],
+   "rekomendasi": [
+    "Batasi Makan & Minum di Luar di $227 bulan ini (potensi hemat $76).",
+    "Tunda tabungan rutin dulu; pastikan tagihan & kebutuhan pokok terbayar sebelum belanja lain.",
+    "Hindari cicilan atau utang konsumtif baru, dan jadwalkan konsultasi dengan RM kami."
+   ],
+   "cta": "Atur budget & auto-save di aplikasi sekarang."
+  },
+  "source": "template (APIConnectionError)"
+ },
+ {
+  "band": "Sehat",
+  "payload": {
+   "client_id": 633,
+   "bulan_forecast": "November 2019",
+   "health_score": 77.0,
+   "health_band": "Sehat",
+   "pendapatan_bulanan_fmt": "$4,182",
+   "forecast_pengeluaran_fmt": "$3,316",
+   "forecast_pengeluaran_rentang_fmt": "$2,221 - $4,721",
+   "proyeksi_surplus_fmt": "$1,255",
+   "proyeksi_surplus_skenario_buruk_fmt": "-$150",
+   "rekomendasi_tabungan_bulanan_fmt": "$1,021",
+   "target_dana_darurat_fmt": "$5,772",
+   "aksi_utama": "SURPLUS TINGGI: auto-debit tabungan berencana + tawarkan deposito/investasi",
+   "status_arus_kas": "surplus",
+   "defisit_setelah_ikut_budget_fmt": "$0",
+   "kategori_terbesar": [
+    {
+     "kategori": "Tagihan, Utilitas & Asuransi",
+     "forecast_fmt": "$697"
+    },
+    {
+     "kategori": "Belanja Kebutuhan Pokok",
+     "forecast_fmt": "$552"
+    },
+    {
+     "kategori": "Belanja Ritel & Rumah Tangga",
+     "forecast_fmt": "$465"
+    }
+   ],
+   "peluang_hemat": [
+    {
+     "kategori": "Travel & Akomodasi",
+     "forecast_fmt": "$84",
+     "median_peer_fmt": "$59",
+     "saran_budget_fmt": "$63",
+     "potensi_hemat_fmt": "$21"
+    }
+   ]
+  },
+  "advice": {
+   "judul": "Rencana keuangan November 2019",
+   "ringkasan": "Pengeluaran Anda bulan depan diperkirakan $3,316 (kisaran $2,221 - $4,721), dengan proyeksi surplus $1,255.",
+   "insight": [
+    "Skor kesehatan keuangan Anda 77 (Sehat).",
+    "Kategori terbesar: Tagihan, Utilitas & Asuransi ($697)."
+   ],
+   "rekomendasi": [
+    "Batasi Travel & Akomodasi di $63 bulan ini (potensi hemat $21).",
+    "Aktifkan auto-save $1,021 per bulan tepat setelah gajian.",
+    "Bangun dana darurat hingga $5,772."
+   ],
+   "cta": "Atur budget & auto-save di aplikasi sekarang."
+  },
+  "source": "template (APIConnectionError)"
+ }
+]

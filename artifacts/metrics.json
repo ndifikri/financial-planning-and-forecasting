@@ -1,0 +1,164 @@
+{
+ "client_total": [
+  {
+   "model": "naive (bulan lalu)",
+   "WAPE": 0.2089,
+   "MAE": 928.116,
+   "RMSE": 1288.8267,
+   "Bias (%)": 1.1502,
+   "MASE vs sNaive": 0.9958
+  },
+  {
+   "model": "seasonal naive (bulan sama thn lalu)",
+   "WAPE": 0.2098,
+   "MAE": 932.0372,
+   "RMSE": 1323.8666,
+   "Bias (%)": 0.2205,
+   "MASE vs sNaive": 1.0
+  },
+  {
+   "model": "moving avg 3 bln",
+   "WAPE": 0.1747,
+   "MAE": 775.8911,
+   "RMSE": 1074.9161,
+   "Bias (%)": 0.1946,
+   "MASE vs sNaive": 0.8325
+  },
+  {
+   "model": "moving avg 12 bln",
+   "WAPE": 0.1572,
+   "MAE": 698.2974,
+   "RMSE": 968.3995,
+   "Bias (%)": 0.1976,
+   "MASE vs sNaive": 0.7492
+  },
+  {
+   "model": "moving avg 24 bln",
+   "WAPE": 0.157,
+   "MAE": 697.3859,
+   "RMSE": 986.7689,
+   "Bias (%)": 0.3338,
+   "MASE vs sNaive": 0.7482
+  },
+  {
+   "model": "LightGBM global (Tweedie)",
+   "WAPE": 0.1513,
+   "MAE": 672.1658,
+   "RMSE": 932.5407,
+   "Bias (%)": 0.0525,
+   "MASE vs sNaive": 0.7212
+  },
+  {
+   "model": "LightGBM bottom-up (jumlah kategori)",
+   "WAPE": 0.151,
+   "MAE": 670.5143,
+   "RMSE": 934.9347,
+   "Bias (%)": -0.4651,
+   "MASE vs sNaive": 0.7194
+  }
+ ],
+ "category": [
+  {
+   "model": "naive (bulan lalu)",
+   "WAPE": 0.5298,
+   "MAE": 235.3461,
+   "RMSE": 404.492,
+   "Bias (%)": 1.1502,
+   "MASE vs sNaive": 0.9929
+  },
+  {
+   "model": "seasonal naive (bulan sama thn lalu)",
+   "WAPE": 0.5336,
+   "MAE": 237.0392,
+   "RMSE": 410.1147,
+   "Bias (%)": 0.2205,
+   "MASE vs sNaive": 1.0
+  },
+  {
+   "model": "moving avg 3 bln",
+   "WAPE": 0.4504,
+   "MAE": 200.0832,
+   "RMSE": 335.3343,
+   "Bias (%)": 0.1946,
+   "MASE vs sNaive": 0.8441
+  },
+  {
+   "model": "moving avg 12 bln",
+   "WAPE": 0.4101,
+   "MAE": 182.166,
+   "RMSE": 302.4733,
+   "Bias (%)": 0.1976,
+   "MASE vs sNaive": 0.7685
+  },
+  {
+   "model": "moving avg 24 bln",
+   "WAPE": 0.4052,
+   "MAE": 179.9737,
+   "RMSE": 299.9189,
+   "Bias (%)": 0.3338,
+   "MASE vs sNaive": 0.7593
+  },
+  {
+   "model": "LightGBM global (Tweedie)",
+   "WAPE": 0.3967,
+   "MAE": 176.1902,
+   "RMSE": 294.1477,
+   "Bias (%)": -0.4651,
+   "MASE vs sNaive": 0.7433
+  }
+ ],
+ "portfolio": [
+  {
+   "model": "naive",
+   "WAPE harian": 0.0426,
+   "MAE harian ($)": 7613.4037,
+   "MASE vs sNaive7": 1.2384,
+   "Error total 30 hari (%)": 2.6624,
+   "Bias (%)": 0.9047
+  },
+  {
+   "model": "seasonal_naive_7",
+   "WAPE harian": 0.0344,
+   "MAE harian ($)": 6147.5302,
+   "MASE vs sNaive7": 1.0,
+   "Error total 30 hari (%)": 1.0624,
+   "Bias (%)": 0.1686
+  },
+  {
+   "model": "ma_28",
+   "WAPE harian": 0.0323,
+   "MAE harian ($)": 5767.2253,
+   "MASE vs sNaive7": 0.9381,
+   "Error total 30 hari (%)": 0.951,
+   "Bias (%)": 0.263
+  },
+  {
+   "model": "ma_365",
+   "WAPE harian": 0.0316,
+   "MAE harian ($)": 5639.2841,
+   "MASE vs sNaive7": 0.9173,
+   "Error total 30 hari (%)": 0.5354,
+   "Bias (%)": -0.1804
+  },
+  {
+   "model": "ets",
+   "WAPE harian": 0.0259,
+   "MAE harian ($)": 4633.9272,
+   "MASE vs sNaive7": 0.7538,
+   "Error total 30 hari (%)": 0.9521,
+   "Bias (%)": 0.208
+  },
+  {
+   "model": "lgbm",
+   "WAPE harian": 0.0372,
+   "MAE harian ($)": 6647.3273,
+   "MASE vs sNaive7": 1.0813,
+   "Error total 30 hari (%)": 0.6408,
+   "Bias (%)": 0.2802
+  }
+ ],
+ "interval_scale": 1.09,
+ "coverage_80_test": 0.7991523106371342,
+ "health_auc": 0.8888281931957811,
+ "health_auc_no_liquidity": 0.8642019582005904
+}
